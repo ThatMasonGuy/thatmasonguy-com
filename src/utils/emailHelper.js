@@ -6,9 +6,9 @@ export async function sendEmail(emailData) {
     const { name, email, message } = emailData;
 
     const emailContent = {
-      to: "contact@dxv.ai",
+      to: "contact@thatmasonguy.com",
       cc: email,
-      subject: "Contact us form: dxv.ai",
+      subject: "Contact us form: thatmasonguy.com",
       text: "",
       html: `
         <h2>${name}</h2>
